@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resu Form</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="indexstyle.css"/>
+  </head>
+  <body>
+    <div class="containerSecond">
+      <div id="navbar">
+        <div class="logo">
+          <img src="/Images/cv.png" alt="" />
+          <h2>CV Creator</h2>
+        </div>
+        <div class="nav-options">
+          <ul>
+            <li class="opt1"><a href="/index.html">Home</a></li>
+            <li class="opt2">Templates</li>
+            <li class="opt3">Login</li>
+            <li class="opt4">Sign up</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="formContainer">
+        <form action="">
+        <section class="card form-step active" data-step="1">
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="Username"
+                placeholder="Enter full Name"
+              />
+              <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Designation"
+                name="Designation"
+              />
+              <label for="floatingInput">Designation</label>
+            </div>
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Enter about yourself"
+                name="AboutMe"
+                style="height: 150px"
+              ></textarea>
+              <label for="floatingAbout">About Yourself</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                name="phone"
+                placeholder="Enter phone number"
+              />
+              <label for="floatingPhone">Phone Number</label>
+            </div>
+
+            <!-- Email -->
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingEmail"
+                placeholder="name@example.com"
+                name="email"
+              />
+              <label for="floatingEmail">Email</label>
+            </div>
+
+            <!-- Location / Address -->
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control"
+                placeholder="Enter location or address"
+                id="floatingAddress"
+                style="height: 100px"
+                name="location"
+              ></textarea>
+              <label for="floatingAddress">Location / Address</label>
+            </div>
+
+            <button type="button" class="next-btn btn btn-primary">Next</button>
+        </section>
+
+        <section class="card form-step" data-step="2">
+            <h6>*note: Enter the all values with comas ','.</h6>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="languages"
+                name="languages"
+              />
+              <label for="floatingInput">Languages</label>
+            </div>
+            <span>maximum 3 languages</span>
+            <br />
+
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="skills"
+              />
+              <label for="floatingInput">Technical or Managerials Skills</label>
+            </div>
+            <span>maximum 5 skills</span> <br>
+            <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+              <button type="button" class="prev-btn btn btn-primary">Previous</button>
+              <button type="button" class="next-btn btn btn-primary">Next</button>
+            </div>
+        </section>
+
+          <!-- Eduaction card -->
+        <section class="Edcation card form-step" data-step="3">
+            <h5 class="mb-3">Education Details</h5>
+
+            <!-- 10th Details -->
+            <h6>10th Grade</h6>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="10th"
+                placeholder="School Name"
+              />
+              <label for="schoolName10">School Name</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="10th"
+                placeholder="Board"
+              />
+              <label for="board10">Board</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="10th"
+                placeholder="Location"
+              />
+              <label for="location10">Location</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="number"
+                class="form-control"
+                name="10th"
+                placeholder="Passout Year"
+              />
+              <label for="passoutYear10">Passout Year</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="10th"
+                placeholder="Percentage"
+              />
+              <label for="percentage10">Percentage</label>
+            </div>
+
+            <!-- 12th Details -->
+            <h6>12th Grade</h6>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="12th"
+                placeholder="School Name"
+              />
+              <label for="schoolName12">School Name</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="12th"
+                placeholder="Board"
+              />
+              <label for="board12">Board</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="12th"
+                placeholder="Location"
+              />
+              <label for="location12">Location</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="number"
+                class="form-control"
+                name="12th"
+                placeholder="Passout Year"
+              />
+              <label for="passoutYear12">Passout Year</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="12th"
+                placeholder="Percentage"
+              />
+              <label for="percentage12">Percentage</label>
+            </div>
+
+            <!-- Graduation Details -->
+            <h6>Graduation</h6>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="grad"
+                placeholder="College Name"
+              />
+              <label for="collegeName">College Name</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="grad"
+                placeholder="Branch"
+              />
+              <label for="branch">Branch</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="text"
+                class="form-control"
+                name="grad"
+                placeholder="Location"
+              />
+              <label for="locationGrad">Location</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input
+                type="number"
+                class="form-control"
+                name="grad"
+                placeholder="Passout Year"
+              />
+              <label for="passoutYearGrad">Passout Year</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                name="grad"
+                placeholder="Percentage"
+              />
+              <label for="percentageGrad">Percentage</label>
+            </div>
+
+            <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+              <button type="button" class="prev-btn btn btn-primary">Previous</button>
+              <button type="button" class="next-btn btn btn-primary">Next</button>
+            </div>
+        </section>
+
+        <section class="card form-step" data-step="4">
+          <div class="Personal-Project">
+            <div class="project1">
+              <h6>Project1</h6>
+              <div class="form-floating">
+                <input type="text" class="form-control" placeholder="Project name" name="ProjectName"/>
+                <label for="Project Name">Project Name</label>
+              </div>
+
+              <br>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Enter about your project." style="height: 100px"name="ProjectDetails"
+                ></textarea>
+                <label for="floatingAddress">About Project</label>
+              </div>
+            </div>
+            <button type="button" class="btn btn-outline-primary" id="addproject"> Add </button>
+          </div>
+            <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+              <button type="button" class="prev-btn btn btn-primary">Previous</button>
+              <button type="button" class="next-btn btn btn-primary">Next</button>
+            </div>
+
+
+        </section>
+
+        <div class="internship card form-step" data-step="5">
+              <div id="internship-container">
+  
+              </div>
+  
+                <button id="addInternship" type="button">Add Internship</button>
+                
+            <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+              <button type="button" class="prev-btn btn btn-primary">Previous</button>
+              <button type="submit" class="btn btn-success" id="formsubmit">Submit</button>
+            </div>
+        </div>
+        </form>
+      </div>
+    </div>
+    <script src="formscript.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
